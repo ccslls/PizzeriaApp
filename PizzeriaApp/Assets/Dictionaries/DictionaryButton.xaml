@@ -1,0 +1,9 @@
+﻿<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+                    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+    <FontFamily x:Key="Roboto">pack://application:,,,/Assets/Fonts/Roboto-Regular.ttf#Roboto</FontFamily>
+    <Style TargetType="Button">
+        <Setter Property="FontFamily" Value="{StaticResource Roboto}"/>
+        <Setter Property="Background" Value="#6DA973" />
+        <Setter Property="Foreground" Value="#fff" />
+    </Style>
+</ResourceDictionary>
